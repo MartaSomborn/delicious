@@ -1,0 +1,39 @@
+.main-button {
+  height: 3rem;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.75rem 1rem;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: #0b2447;
+  border: none;
+}
+
+.main-button:hover,
+.main-button:active {
+  background-color: #071a34;
+}
+
+.main-button img {
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .main-button span {
+    display: none;
+  }
+
+  .main-button img {
+    margin-right: auto;
+  }
+}
+
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  background-color: #1d5d9b;
+  color: white;
+  margin-left: 1rem;
+}
