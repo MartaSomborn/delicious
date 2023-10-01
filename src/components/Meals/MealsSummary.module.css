@@ -11,6 +11,11 @@
 
 .card h2 {
   margin-bottom: 1rem;
+  color: #1d5d9b;
+}
+
+.card p {
+  color: #1d5d9b;
 }
 
 @media (max-width: 768px) {
